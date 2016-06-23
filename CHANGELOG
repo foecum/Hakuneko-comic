@@ -1,0 +1,123 @@
+hakuneko 1.4.1
+
+ * Updated CloudFlare protection
+
+hakuneko 1.4.0
+
+ * Fixed KissAnime
+ * Added support for KissManga
+ * Added support for Fakku
+ * Added support for Mangago
+ * Repeat image download up to 5 times on failure
+ * Increased Batoto list limit
+ * Support for wxWidgets 3.0
+
+hakuneko 1.3.12
+
+ * Fixed Batoto single strip view for pages
+
+hakuneko 1.3.11
+
+ * Fixed Kissanime domain update
+ * Fixed Batoto security update
+ * Added Batoto login
+
+hakuneko 1.3.10
+
+ * Fixed Kissanime
+ * Community additon of DynastyScans
+
+hakuneko 1.3.9
+
+ * Fixed batoto connector
+
+hakuneko 1.3.8
+
+ * Fixed disabled SSL-Cert check for KissAnime download links (MS Windows issue)
+
+hakuneko 1.3.7
+
+ * Added support for Mangahead
+ * Added support for mangahere (spanish)
+ * Removed Submanga
+ * Fixed Kissanime connector
+ * updated about dialog box
+ * Added progress dialog during start
+
+hakuneko 1.3.6
+
+ * Automatic chapter selection when manga search exactly matches a title
+ * Download queue is now sorted by manga & chapter
+ * Added basic log file support
+ * Fixed unique chapter naming for MangaHere (added volume number)
+
+hakuneko 1.3.3
+
+ * Added update check
+ * Save the last pattern to filter chapters (CTRL + manga click)
+ * Fixed: batoto chapter naming collision (including volume number)
+
+hakuneko 1.3.2
+
+ * Fixed: batoto invalid utf8 characters
+
+hakuneko 1.3.1
+
+ * Fixed: batoto internal manga list limit
+
+hakuneko 1.3.0
+
+ * replaced internal wxHTTP with cURL engine
+ * showst the size of transfered data
+ * allows abort during a file transfer
+ * added Kissanime connector
+
+hakuneko 1.1.1
+
+ * fixed mangahere crash when parsing empty chapter list
+
+hakuneko 1.1.0
+
+ * added context main menu when right click on free space inside the main window
+ * support for chapter filter tags (i.e. English) when selecting a manga and loading chapter list
+ * added configurtion option for comic book archives (*.cbz)
+ * added configurtion option to disable the 'delete completed jobs' dialog after download
+ * added configurtion option to check for missing/new chapters when selecting a manga
+ * bookmarks now stores the current manga connector that will also be auto selected when clicking the bookmark
+
+hakuneko 1.0.5
+
+ * fixed mangahere image download
+ * changed configuration path for XDG compliance (from ~/.hakuneko to $XDG_CONFIG_HOME or ~/.config/hakuneko)
+
+hakuneko 1.0.4
+
+ * disabled automatic chapter loading while typing (performance impact)
+ * changed batoto connector manga list synchronization (speed ~4x faster)
+ * fixed processing of manga lists from webpages with invalid utf8 characters
+
+hakuneko 1.0.3
+
+ * auto select chapters when manga search pattern exactly matches manga name
+ * highlight chapters only when at least 1 valid file is inside the directory
+ * increased timeouts from 8 - 10 seconds
+
+hakuneko 1.0.2
+
+ * automatic chapter loading when search pattern matches manga
+ * label (bookmark click)
+ * fixed: mangahere image download for windows
+ * fixed: chapter parsing for mangafox
+
+hakuneko 1.0
+
+ * support for linux
+ * revised GUI layout
+ * added some connectors
+ * joblist for managing downloads
+ * smart search with bookmarking feature
+ * color highlighting of exisitng manga/chapter directories
+
+hakuneko 0.5
+
+ * initial release
